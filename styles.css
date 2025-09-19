@@ -1,0 +1,72 @@
+/* Colores inspirados en el logo: azul, verde y naranja */
+:root {
+    --azul: #1d496b;
+    --verde: #4a7c59;
+    --naranja: #e07a34;
+    --gris-claro: #f4f4f4;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--gris-claro);
+    color: #333;
+}
+
+header {
+    background: var(--azul);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1.1em;
+}
+
+nav {
+    background: var(--verde);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: var(--naranja);
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: var(--azul);
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background: var(--azul);
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+}
